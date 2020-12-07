@@ -9,6 +9,7 @@ public class Lcm {
 		int b=sc.nextInt();
 		int x=a>b?a:b;
 		int i;
+		System.out.print("Your lcm is ");
 		for(i=x;i<=a*b;i=i+x) {
 			if(i%a==0&&i%b==0)
 			    break;
